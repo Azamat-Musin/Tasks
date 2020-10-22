@@ -11,8 +11,7 @@ public class TaskIntegral {
         double b = sc.nextDouble(); // граница правая
         System.out.println("Enter count of line segments: ");
         int n = sc.nextInt(); // ввод количества отрезков пользователем
-        String bbbb = "check";
-        int aaaaaaa = 35342;
+        
 
         double dx = (b-a)/n; // длина отрезка
         System.out.println("dx = " + dx);
