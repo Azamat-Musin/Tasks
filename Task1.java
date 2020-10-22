@@ -7,6 +7,7 @@ class Task1{
 			String s = "Strange happens something here";
 			int aaa = 1000;
 			int bbbb = 100004;
+			int cccc = aaa + bbbb;
 			double answer = g*t*t/2;
 			System.out.println("The deep is " + answer + " meters");
 		}
