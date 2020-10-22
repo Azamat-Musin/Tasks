@@ -8,6 +8,11 @@ class Task1{
 			int aaa = 1000;
 			int bbbb = 100004;
 			int cccc = aaa + bbbb;
+			int arr[] = new int[10];
+			for (int i = 0; i < 10; i++) {
+				arr[i] = (int)(Math.random()*1000);
+			}
+			System.out.println(Arrays.toString(arr));
 			double answer = g*t*t/2;
 			System.out.println("The deep is " + answer + " meters");
 		}
